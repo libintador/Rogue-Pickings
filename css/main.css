@@ -1,0 +1,208 @@
+/* -- Stylesheet for Rogue Pickings --- */
+
+
+/* -------- Color Palette -------------
+
+#77A466: used for main heading, nav and welcome title, menu list and footer
+#000000: used for area backgrounds, main header background
+#eee: used for section borders
+
+*/
+
+
+/* ----------- Fonts ------------------
+
+Montserrat: sans-serif font | used for headings and nav
+Galada: display font | used for footer
+
+*/
+
+/* ------- Table of Contents ----------
+
+- Base Styles
+
+- Utilities
+
+- Grid
+
+- Header
+    - Nav
+
+- Top Section
+
+- Bottom Section
+
+- Footer
+
+*/
+
+/* --------- Base Styles ----------- */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+h1, h2, h3, h4 {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+h1, h3, h4 {
+    color: #000000;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    color: #77A466;
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+h4 {
+    font-size: 12px;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* ------------ Grid --------------- */
+
+.top-section, .bottom-section {
+    clear: both;
+    margin: auto;
+}
+
+/* ----------- Header ------------- */
+
+header {
+    border-bottom: 3px solid #77A466;
+    height: 110px;
+	margin: 0 auto;
+}
+
+header h1 {
+    float: left;
+    margin: 0 390px 0 0;
+    padding: 38px 0;
+}
+
+header h1 span {
+    color: #77A466;
+}
+
+nav {
+    float: left;
+    padding: 46px 0;
+}
+
+nav ul {
+    margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 0 10px;
+    text-transform: uppercase;
+}
+
+nav ul li a {
+    color:#77A466;
+    text-decoration: none;
+}
+
+/* ---------- Top Section ---------- */
+
+.main-image img{
+    border-bottom: 3px solid #77A466;
+}
+
+.main-intro {
+    height: auto;
+}
+
+.main-intro h2 {
+    padding: 5px 0;
+    text-align: left;
+}
+
+.main-intro p {
+    line-height: 25px;
+    padding: 0 0 16px 0;
+    width: 1160px;
+}
+
+/* -------- Bottom Section --------- */
+
+.col-one, .col-two, .col-three {
+    border-top: 2px solid #eee;
+    float: left;
+    height: auto;
+    width: 398px;
+}
+
+.col-one h4 {
+    padding: 10px 0;
+}
+
+.col-two h4, .col-three h4 {
+    padding: 10px 30px;
+}
+
+.col-two {
+    border-left: 2px solid #eee;
+    border-right: 2px solid #eee;
+}
+
+.col-two p, .col-three p {
+    padding: 0 30px;
+}
+
+.menu {
+	padding: 0;
+}
+
+.menu li {
+    color: #77a466;
+    font-size: 16px;
+    line-height: 36px;
+    list-style: none;
+}
+
+.col-two p {
+    line-height: 21px;
+}
+
+.col-three p {
+    line-height: 24px;
+}
+
+/* ----------- Footer ------------ */
+
+footer {
+    border-top: 2px solid #eee;
+    clear: both;
+    padding: 15px 0;
+    text-align: center;
+}
+
+footer span {
+    color: #77A466;
+    font-family: 'Galada', cursive;
+    font-weight: bold;
+    text-transform: lowercase;
+}
